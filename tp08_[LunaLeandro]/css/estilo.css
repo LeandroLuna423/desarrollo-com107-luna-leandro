@@ -1,0 +1,71 @@
+/* Ejercicio 5 */
+ul.lista {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+
+li.item {
+    background-color: tomato;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1, h3 {
+    color: #ff8c1a;
+}
+
+table {
+    background-color: whitesmoke;
+    text-align: left;
+    width: 25%;
+    border: 1px solid black;
+}
+
+#alumno_2, #alumno_4, #alumno_6{
+    background-color: GhostWhite;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#alumno_1, #alumno_3, #alumno_5{
+    background-color: Snow;
+    font-size: 14px;
+    font-style: italic;
+}
+
+a.ver {
+    text-decoration: none;
+    color: #00b3b3;
+    font-weight: bold;
+}
+a.clase-ver{
+    text-decoration: none;
+    font-weight: bold;
+    color: #00b3b3;
+}
+
+a.clase-ver:hover {
+    background-color: #00b3b3;
+    font-weight: bold;
+    color: white;
+}
+
+a.top {
+    color: #ff8c1a;
+}
+
+a.top:hover {
+    text-decoration: none;
+}

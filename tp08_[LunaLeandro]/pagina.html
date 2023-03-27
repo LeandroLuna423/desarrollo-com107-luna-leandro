@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 - Luna Leandro</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    
+    <!--Ejercicio 3-->
+    <h1>Mis Cursos</h1>
+
+    <ul class="lista">
+        <li class="item">Curso 1</li>
+        <li class="item">Curso 2</li>
+        <li class="item">Curso 3</li>
+        <li class="item">Curso 4</li>
+        <li class="item">Curso 5</li>
+        <li class="item">Curso 6</li>
+        <li class="item">Curso 7</li>
+        <li class="item">Curso 8</li>
+        <li class="item">Curso 9</li>
+        <li class="item">Curso 10</li>
+    </ul>
+
+    <h3>Mi listado de alumnos</h3>
+
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Orden</th>
+                <th>Apellido</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ver</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><b>Gonzales</b></td>
+                <td><i>Maria</i></td>
+                <td>18</td>
+                <td><a class="clase-ver" href="#alumno_1">Ver</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><b>Rodriguez</b></td>
+                <td><i>Juan</i></td>
+                <td>21</td>
+                <td><a class="clase-ver" href="#alumno_2">Ver</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><b>Perez</b></td>
+                <td><i>Roman</i></td>
+                <td>26</td>
+                <td><a class="clase-ver" href="#alumno_3">Ver</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><b>Gomez</b></td>
+                <td><i>Romina</i></td>
+                <td>22</td>
+                <td><a class="clase-ver" href="#alumno_4">Ver</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><b>Navarro</b></td>
+                <td><i>Javier</i></td>
+                <td>20</td>
+                <td><a class="clase-ver" href="#alumno_5">Ver</a></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><b>Castro</b></td>
+                <td><i>Mariano</i></td>
+                <td>24</td>
+                <td><a class="clase-ver" href="#alumno_6">Ver</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <img src="images/alumnos.jpg" alt="Alumnos" width="400px">
+
+    <section id="alumno_1">
+        <h2>Maria Gonzales</h2>
+        <img src="images/Gonzales_Maria.jpg" alt="Maria Gonzales" width="300px">
+    </section>
+    <section id="alumno_2">
+        <h2>Rodriguez Juan</h2>
+        <img src="images/Rodriguez_Juan.jpg" alt="Maria Gonzales" width="300px">
+    </section>
+    <section id="alumno_3">
+        <h2>Roman Perez</h2>
+        <img src="images/Perez_Roman.jpg" alt="Maria Gonzales" width="300px">
+    </section>
+    <section id="alumno_4">
+        <h2>Romina Gomez</h2>
+        <img src="images/Gomez_Romina.jpg" alt="Maria Gonzales" width="300px">
+    </section>
+    <section id="alumno_5">
+        <h2>Javier Navarro</h2>
+        <img src="images/Navarro_Javier.jpg" alt="Maria Gonzales" width="300px">
+    </section>
+    <section id="alumno_6">
+        <h2>Mariano Castro</h2>
+        <img src="images/Castro_Mariano.jpg" alt="Maria Gonzales" width="300px">
+    </section>
+
+    <label for="id_apellido">Apellido:</label>
+    <input type="text" id="id_apellido" name="apellido" placeholder="Apellido del alumno..." maxlength="30">
+    
+    <label for="id_nombre">Nombre:</label>
+    <input type="text" id="id_nombre" name="nombre" placeholder="Nombre del alumno..." maxlength="40">
+    
+    <label for="edad">Edad:</label>
+    <input type="number" id="id_edad" name="edad" placeholder="Ingrese la edad..." min="18">
+    
+    <label for="id_estudios">Estudios:</label>
+    <select id="id_estudios" name="estudios">
+      <option value="primarios">Primarios</option>
+      <option value="secundarios">Secundarios</option>
+      <option value="terciarios">Terciarios</option>
+      <option value="universitarios">Universitarios</option>
+      <option value="no-definido">No definido</option>
+    </select>
+    
+    <a class="top" href="#tabla">Ir arriba</a>
+</body>
+</html>
