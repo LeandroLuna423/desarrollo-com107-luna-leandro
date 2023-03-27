@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio - Formulario</title>
+</head>
+<body>
+    <form action="" method="post" name="formulario1" id="form1">
+        
+        <label for="id_nom">Nombre:</label>
+        <input type="text" name="nombre" id="id_nom" required placeholder="Ingrese su nombre...">
+
+
+        <label for="id_ape">Apellido:</label>
+        <input type="text" name="apellido" id="id_ape" required placeholder="Ingrese su apellido...">
+
+        <label for="id_edad">Edad:</label>
+        <input type="number" min="0" max="100" name="edad" id="id_edad" required placeholder="Ingrese su edad...">
+
+        <select name="sexo" id="id_sexo" required>
+            <option disabled>Seleccione su sexo.</option>
+            <option>Masculino</option>
+            <option>Femenino</option>
+            <option>No especifica</option>
+        </select>
+
+        <input type="radio" name="mayor_menor" value="menor_18">
+        <label>Menor de 18</label>
+        <input type="radio" name="mayor_menor" value="mayor_18">
+        <label>Mayor de 18</label>
+
+        <label>Idiomas:</label>
+        <select name="idiomas" id="id_idiomas" multiple required>
+            <option value="esp">Español</option>
+            <option value="ing">Inglés</option>
+            <option value="fra">Francés</option>
+            <option value="ale">Alemán</option>
+            <option value="hol">Holandés</option>
+        </select>
+
+        <input type="checkbox" name="extra" value="auto">
+        <label>Auto</label>
+        <input type="checkbox" name="extra" value="moto">
+        <label>Moto</label>
+        <input type="checkbox" name="extra" value="camioneta">
+        <label>camioneta</label>
+        <input type="checkbox" name="extra" value="camion">
+        <label>Camion</label>
+
+        <label for="id_comment">Deje su comentario:</label>
+        <textarea name="comentario" id="id_comment" cols="30" rows="10" placeholder="Escriba su mensaje..."></textarea>
+
+        <input type="submit" name="enviarDatos" id="id_submit" value="Enviar datos">
+        <input type="button" name="borrarDatos" id="id_button" value="Borrar datos">
+    </form>
+    
+</body>
+</html>
