@@ -1,0 +1,64 @@
+body{
+    background-image: url("../img/ondas.svg");
+    background-color: #22193F;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2.5%;
+}
+
+.img_login{
+    background-image: url("../img/img-login.jpg");
+    background-position: center center;
+}
+.logo_blanco{
+    background-image: url("../img/logo-blanco.svg");
+    padding: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.formulario{
+    background-color: #C4C4C4;
+}
+
+#id_login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #22193F;
+}
+
+.l_input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.input2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    border-color: #C4C4C4;
+}
+
+#ol_pass{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #E21982;
+}
+
+.boton{
+    background-color: #E21982;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.boton2{
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
