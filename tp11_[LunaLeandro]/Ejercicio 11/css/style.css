@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Nunito-Black;
+    src: url("../fonts/Nunito/static/Nunito-Black.ttf");
+}
+
+@font-face {
+    font-family: Nunito-Bold;
+    src: url("../fonts/Nunito/static/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: Nunito-Extra-Light;
+    src: url("../fonts/Nunito/static/Nunito-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: Open-Sans-Regular;
+    src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Open-Sans-Bold;
+    src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+}
+
+.navegador{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu{
+    font-family: Nunito-Bold;
+    font-size: medium;
+    color: #22193F;
+}
+
+.boton-login, .b-comenzar{
+    font-family: Nunito-Bold;
+    color: white;
+    background-color: #E21982;
+}
+
+.boton-login:hover{
+    color: white;
+    background-color: #E21982;
+}
+
+.b-comenzar:hover{
+    color: white;
+    background-color: #E21982;
+}
+
+.bg-principal{
+    background-image: url("../img/banner-principal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.titulo_b1{
+    font-family: Nunito-Black;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.titulo_bb{
+    font-family: Open-Sans-Regular;
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.fondo-gris{
+    background-color: #E8E8E8;
+}
+
+.pre_titulo{
+    font-family: Nunito-Extra-Light;
+    font-size: 12px;
+    color: #22193F;
+}
+
+.titulo_secundario{
+    font-family: Nunito-Black;
+    font-size: 28px;
+    color: #22193F;
+    padding-bottom: 3%;
+    padding-top: 0%;
+}
+
+.texto_general{
+    font-family: Open-Sans-Regular;
+    font-size: 16px;
+    color: #22193F;
+}
+
+.t_numeros{
+    font-family: Nunito-Black;
+    font-size: 28;
+    color: #E21982;
+}
+
+.textos_iconos{
+    font-family: Open-Sans-Regular;
+    font-size: 16px;
+    color: #22193F;
+}
+
+.bg1{
+    background-color: #E21982;
+}
+
+.h_ayuda{
+    font-family: Nunito-Black;
+    font-size: 23px;
+    color: white;
+}
+
+.b_click{
+    font-family: Nunito-Black;
+    font-size: 23px;
+    color: white;
+    border-color: white;
+}
+
+.b_click:hover{
+    color: white;
+    border-color: white;
+}
+
+.t_preguntas{
+    font-family: Nunito-Black;
+    font-size: 16px;
+    color: #22193F;
+}
+
+.bg-secundario{
+    background-image: url("../img/banner-secundario.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titulo2{
+    font-family: Nunito-Black;
+    font-size: 28px;
+    color: white;
+}
+
+.bg_footer{
+    background-color: #22193F;
+}
+
+.linea{
+    height: 2px;
+    width: 100%;
+    border-width: 0;
+    color: white;
+    background-color: white;
+    margin-top: 1.5%;
+}
+
+.footer_link{
+    font-family: Nunito-Bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.redes{
+    background-color: white;
+}
+
+.redes:hover{
+    background-color: white;
+}
+
+.copyright{
+    font-family: Open-Sans-Regular;
+    font-size: 12px;
+    color: white;
+}
